@@ -27,6 +27,18 @@ cd Chatbot-Law-and-Rights
 ``` bash
 pip install -r requirements.txt
 ```
+## Getting Your API Key
+
+To interact with the Gemini LLM (or OpenAI if you are using GPT models), you'll need an API key. Here's how to get it:
+
+1. Sign up for **Gemini LLM** or **OpenAI** and create an account.
+2. Generate your API key from your account dashboard.
+3. Store the key securely in your environment variables or a `.env` file.
+4. In your code, access the key using the `os` module or `dotenv` package.
+
+Remember, never expose your API key publicly for security reasons.
+
+Once you have your API key, you can copy it in .env file
 
 ## Run the application:
 ```bash
